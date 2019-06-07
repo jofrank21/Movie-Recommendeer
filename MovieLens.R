@@ -1,3 +1,5 @@
+#Movie Recommendation Algorithm
+
 ratings <- read.table(text = gsub("::", "\t", readLines("edx.rds")), col.names = c("userID", "movieID", "rating", "timestamp"))
 
 edx <- readRDS("edx.rds")
